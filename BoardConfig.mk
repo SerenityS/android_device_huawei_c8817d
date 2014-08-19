@@ -48,6 +48,9 @@ TARGET_CPU_SMP := true
 ARCH_ARM_HAVE_TLS_REGISTER := true
 TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 
+#add suffix variable to uniquely identify the board
+TARGET_BOARD_SUFFIX := _32
+
 # Audio
 BOARD_USES_ALSA_AUDIO := true
 AUDIO_FEATURE_MDM_DETECT := true
