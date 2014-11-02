@@ -46,7 +46,6 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno306
 TARGET_BOOTLOADER_BOARD_NAME := msm8916
 TARGET_CPU_SMP := true
 ARCH_ARM_HAVE_TLS_REGISTER := true
-TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 
 #add suffix variable to uniquely identify the board
 TARGET_BOARD_SUFFIX := _32
