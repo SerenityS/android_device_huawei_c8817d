@@ -134,6 +134,7 @@ on charger
    start qcom-post-boot
 
 on boot
+    start rmt_storage
     insmod /system/lib/modules/adsprpc.ko
 
 start test_diag
