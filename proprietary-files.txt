@@ -866,6 +866,11 @@ vendor/lib/libril-qc-qmi-1.so
 vendor/lib/libril-qcril-hook-oem.so
 vendor/lib/libxml.so
 
+# Sensors
+lib/hw/sensors.msm8916.so
+lib/libcalmodule_akm.so
+vendor/etc/calmodule.cfg
+
 # Thermal
 bin/thermal-engine
 vendor/lib/libthermalclient.so

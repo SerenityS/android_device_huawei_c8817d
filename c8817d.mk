@@ -337,12 +337,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.qti.carrier.rc
 
-# Sensors
-PRODUCT_PACKAGES += \
-    sensors.msm8916 \
-    libcalmodule_akm \
-    calmodule.cfg
-
 # Live Wallpapers
 PRODUCT_PACKAGES += \
     LiveWallpapers \
