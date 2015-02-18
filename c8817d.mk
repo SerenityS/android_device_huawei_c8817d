@@ -173,6 +173,10 @@ PRODUCT_PACKAGES += \
     audio_policy.msm8916 \
     libaudio-resampler
 
+# Bson
+PRODUCT_PACKAGES += \
+    libbson
+
 # Camera
 PRODUCT_PACKAGES += \
     mm-qcamera-app \
@@ -229,6 +233,10 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcompostprocbundle
 
+# Lib_xml2
+PRODUCT_PACKAGES += \
+    libxml2
+
 # Lights
 PRODUCT_PACKAGES += \
     lights.msm8916
@@ -274,6 +282,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     qcmediaplayer
 
+# Postprocessing
+PRODUCT_PACKAGES += \
+    libtinyxml
+
 # Power HAL
 PRODUCT_PACKAGES += \
     power.msm8916
@@ -317,6 +329,10 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc \
     init.device.rc
+
+# SoftAP
+PRODUCT_PACKAGES += \
+    libqsap_sdk
 
 #spec service
 PRODUCT_PACKAGES += \
