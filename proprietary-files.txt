@@ -741,10 +741,6 @@ bin/rmnetcli
 bin/send_data_srv
 bin/StoreKeybox
 bin/subsystem_ramdump
-bin/tinycap
-bin/tinymix
-bin/tinypcminfo
-bin/tinyplay
 bin/usb_uicc_client
 bin/wdsdaemon
 xbin/qlogd
